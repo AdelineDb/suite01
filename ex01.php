@@ -1,4 +1,6 @@
-/*
+<?php
+
+/**
     Appeler la fonction "returnParameter",
     Envoyer le nombre 5 en paramètre;
 
@@ -12,14 +14,14 @@
     pour afficher la valeur de retour de la fonction;
 */
 
-/*
-    Déclaration de la fonction "returnParameter",
-    prenant un paramètre "nb",
-    qui retourne ce paramètre "nb";
+/**
+ *  Déclaration de la fonction "returnParameter",
+ *  prenant un paramètre "$number",
+ *  qui retourne ce paramètre "nb";
 */
 
-function returnParameter(nb) {
-    return nb;
+function returnParameter(int $number):int {
+    return $number;
 }
 
 //  écrire votre code sous ce commentaire
