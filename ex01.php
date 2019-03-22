@@ -13,8 +13,7 @@
  *    Ne cherchez pas trop loin;
  *    Vous pouvez appeler plusieurs fois la fonction pour tester;
  *
- *    Utilisez la fonction console.log
- *    pour afficher la valeur de retour de la fonction;
+ *    
  */
 
 /**
